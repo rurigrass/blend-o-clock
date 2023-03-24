@@ -1,0 +1,14 @@
+{
+    "name": "blend-o-clock",
+    "version": "1.0",
+    "manifest_version": 3,
+    "description": "extension to give the user a reminder to save their blender project every 5 minutes",
+    "permissions":["storage", "notifications"],
+    "action": {
+        "default_icon": "icon.png",
+        "default_popup": "index.html"
+    },
+    "background" : {
+        "service_worker" : "background.js"
+      }
+}
