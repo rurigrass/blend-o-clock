@@ -57,7 +57,7 @@ const timerChange = () => {
     stopTimer();
     chrome.notifications.create({
       title: "Hey Hey Hey",
-      message: "Time to save your project! ",
+      message: "Time to save your project!",
       iconUrl: "../icon.png",
       type: "basic"
     })
